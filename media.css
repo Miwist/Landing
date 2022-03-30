@@ -26,7 +26,7 @@
   /* NAV */
   .header {
     overflow-x: hidden;
-    margin-left: 5px;
+    margin-left: 0;
   }
   .nav {
     margin-top: 20px;
