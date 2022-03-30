@@ -20,12 +20,12 @@
 
   body {
     max-width: 480px;
+    margin: 0 auto;
   }
 
   /* NAV */
   .header {
     overflow-x: hidden;
-    margin-left: 0;
   }
   .nav {
     margin-top: 20px;
@@ -48,8 +48,8 @@
     margin-right: 0;
   }
 
-  .platform__box__line__bg,
-  .platform__box__line {
+  .platform-box__line-bg,
+  .platform-box__line {
     display: none;
   }
 
@@ -59,7 +59,7 @@
     filter: blur(90px);
   }
 
-  .platform__text {
+  .platform-text {
     margin-left: 0;
   }
 
@@ -68,13 +68,13 @@
     height: 350px;
   }
 
-  .platform__download,
-  .platform__download__img {
+  .platform-download,
+  .platform-download__img {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .platform__download__img {
+  .platform-download__img {
     margin-left: 0;
   }
 
@@ -106,11 +106,11 @@
     margin-left: 0;
   }
 
-  .platform__download h3 {
+  .platform-download h3 {
     margin-left: 0;
     margin-bottom: 20px;
   }
-  .platform__download__img {
+  .platform-download__img {
     margin-right: 0;
   }
 
@@ -127,7 +127,7 @@
     margin-bottom: 40px;
   }
 
-  .mission__text {
+  .mission-text {
     margin-left: 20px;
   }
 
@@ -150,15 +150,15 @@
     background-size: 100%;
   }
 
-  .scanner__img__float,
-  .scanner__img2__float {
+  .scanner-img-wrap,
+  .scanner__img2-wrap {
     width: 200px;
     height: 400px;
     margin-left: 0;
     align-self: flex-start;
   }
 
-  .scanner__img__float {
+  .scanner-img-wrap {
     margin-bottom: 20px;
   }
 
@@ -168,9 +168,9 @@
     flex-direction: column-reverse;
   }
 
-  .scanner__img {
+  .scanner-img {
     flex-direction: column-reverse;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 0;
   }
 
@@ -199,14 +199,14 @@
     margin-bottom: 50px;
   }
 
-  .tool__img__maket {
+  .tool__img-maket {
     width: 370px;
     height: 350px;
   }
 
   /* GETBACK */
 
-  .getback__form {
+  .getback-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,7 +217,7 @@
   /* QRCODE */
 
   .qrcode-img-container,
-  .qrcode__img {
+  .qrcode-img {
     flex-direction: column;
   }
 
@@ -226,11 +226,11 @@
     background-size: 99%;
   }
 
-  .qrcode__text {
+  .qrcode-text {
     margin: 400px 0 260px 0;
   }
 
-  .qrcode__img {
+  .qrcode-img {
     margin-left: 0;
     margin-top: 0;
   }
@@ -245,7 +245,7 @@
     margin-top: 100px;
   }
 
-  .qrcode__img__phone {
+  .qrcode-img-phone {
     width: 200px;
     height: 400px;
   }
@@ -260,7 +260,7 @@
     display: none;
   }
 
-  .generate__text {
+  .generate-text {
     flex-direction: column;
     justify-content: flex-start;
     align-self: start;
@@ -279,18 +279,18 @@
     filter: blur(120px);
   }
 
-  .generate__img {
+  .generate-img {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
     margin-bottom: 0;
   }
-  .generate__img__arrow {
+  .generate-img-arrow {
     margin-left: 250px;
     transform: rotate(50deg);
   }
 
-  .generate__img__phone {
+  .generate-img-phone {
     width: 200px;
     height: 400px;
   }
@@ -301,7 +301,7 @@
     margin-left: 0;
   }
 
-  .ordering__text {
+  .ordering-text {
     margin-right: 0;
     align-items: flex-start;
     margin-left: 20px;
@@ -336,11 +336,11 @@
 
   /* GETBACK */
 
-  .getback__form {
+  .getback-form {
     margin-left: 0;
   }
 
-  .getback__form__city {
+  .getback-form-city {
     flex-direction: column;
   }
 
@@ -348,7 +348,7 @@
     margin-right: 0;
   }
 
-  .getback__form__input {
+  .getback-form__input {
     width: 350px;
   }
 
@@ -362,18 +362,37 @@
 
   /* FOOTER */
 
-  .footer__contact {
+  .footer-contact {
     flex-direction: column-reverse;
   }
-  .footer__contact__privacy {
+  .footer-contact__privacy {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
     align-items: center;
   }
-  .footer__contact__notab {
+  .footer-contact__notab {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+}
+
+@media screen and (min-width: 1600px) {
+  body {
+    margin: 0 auto;
+  }
+
+.header {
+  margin-left: 20%;
+}
+
+.platform-img-container {
+  right: 20%;
+}
+
+.tool__img {
+  margin-left: 500px;
+}
+
 }
