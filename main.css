@@ -6,6 +6,7 @@
 
 html,
 body {
+  max-width: 1440px;
   transition: 0.5s ease-in-out;
   background-color: #000000;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
