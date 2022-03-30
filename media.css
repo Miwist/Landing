@@ -20,13 +20,12 @@
 
   body {
     max-width: 480px;
-    margin: 0 auto;
   }
 
   /* NAV */
   .header {
     overflow-x: hidden;
-    margin-left: 0;
+    margin-left: 10px;
   }
   .nav {
     margin-top: 20px;
